@@ -40,18 +40,17 @@ registerMicroApps(
     },
     {
       name: 'vue',
-      // entry: '//localhost:7101',
-      entry: '//127.0.0.1:7099/vue',
+      entry: '//localhost:7101',
       container: '#subapp-viewport',
       loader,
       activeRule: '/vue',
     },
     {
-      name: 'angular9',
+      name: 'angular11',
       entry: '//localhost:7103',
       container: '#subapp-viewport',
       loader,
-      activeRule: '/angular9',
+      activeRule: '/angular11',
     },
     {
       name: 'purehtml',

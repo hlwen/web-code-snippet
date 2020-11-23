@@ -15,10 +15,10 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
-  outputDir: '../main/vue',
   // indexPath: '../main/vue',
-  publicPath: '/vue',
-  assetsDir: 'dist',
+  // publicPath: '',
+  outputDir: 'dist',
+  assetsDir: 'static',
   filenameHashing: true,
   // tweak internal webpack configuration.
   // see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
